@@ -818,3 +818,8 @@ Started GET "/posts/5" for 72.88.82.77 at 2020-11-07 03:44:05 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"5"}
   [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
